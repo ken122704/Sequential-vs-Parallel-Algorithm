@@ -51,7 +51,7 @@ def test_special_cases(n):
     print("Parallel Search:", parallel_search(data, target))
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     test_all(1000)
     test_all(100000)
     test_all(1000000)
